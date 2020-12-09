@@ -2,34 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./style.css" >
   <title>Document</title>
 </head>
 <body>
-  <header><h1>Header!!!<h1></Header>
-
-    <footer>
-      <div>
-        <ul>
-          <li>content 1</li>
-          <li>content 2</li>
-          <li>content 3</li>
-          <li>content 4</li>
-          <li>content 5</li>
-        </ul>
-      </div>
-    </footer>
-
-    
-    <main>
-      <section>
-        <article>
-          <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, reiciendis.</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, optio!</p>
-        </article>
-      </section>
-    </main>
-
- 
+  <form method="GET">
+  <h1 title="Форма регистрации">Register</h1>
+  <p>Create your account. it's free and only takes a minute.</p>
+  <div class="group">
+  <label>
+      <input autofocus type="text" placeholder="First name" name="FirstName" required />
+    </label>
+  </div>
+  <div class="group">
+    <label>
+      <input autofocus type="text" placeholder="Last name" name="LastName" required />
+    </label>
+  </div>
+  <div class="group">
+    <label>
+      <input autofocus type="email" placeholder="Email here" name="Emailhere" required />
+    </label>
+  </div>
+  <div class="group">
+    <label>
+      <input autofocus type="password" placeholder="Password" name="Password" required />
+    </label>
+  </div>
+  <div class="group">
+    <label>
+      <input autofocus type="password" placeholder="Confirm Password" required />
+    </label>
+  </div>
+  <div class="gulka">
+  <lable><input type="checkbox" name="I accept the Terms of Use & Privacy Policy">I accept the Terms of Use & Privacy Policy.</lable>
+  </div>
+  <button>Register Now</button>
+  </form>
 </body>
 </html>
